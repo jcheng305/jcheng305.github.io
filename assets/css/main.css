@@ -1,48 +1,107 @@
 /* custom styles */
 header {
-  text-align: center;
-  background: url("https://images8.alphacoders.com/282/thumb-1920-282535.jpg");
-  background-size: cover;
-  color: #4a5e7c;
+ text-align: center;
+ background-size: auto;
+ width: 100%;
+ height: 35px;
+ color: #4a5e7c;
 }
 a{
-  color: white;
+ color: white;
 }
 h1 {
-  font-size: 70px;
+ font-size: 70px;
 }
 img {
-  margin: 40px 0px 0px 0px;
-  border: 7px solid white;
-  border-radius: 20px;
+ margin: 40px 0px 0px 0px;
+ border: 7px solid white;
+ border-radius: 40px;
 }
-ul {
-  padding: 10px;
-  background: rgba(0,0,0,0.5);
+.well {
+  min-height: 20px;
+  padding: 19px;
+  margin-bottom: 20px;
+  border: 1px solid #e3e3e3;
+  border-radius: 4px;
+  background-color: transparent;
+  color: white;
+
+}
+/*ul {
+ padding: 10px;
+ background: rgba(0,0,0,0.5);
 }
 li {
-  display: inline;
-  padding: 0px 10px 0px 10px;
+ display: inline;
+ padding: 0px 10px 0px 10px;
 }
 article {
-  max-width: 500px;
-  padding: 20px;
-  margin: 0 auto;
+ max-width: 500px;
+ padding: 20px;
+ margin: 0 auto;
 }
 @media (max-width: 500px) {
 h1 {
-  font-size: 36px;
+ font-size: 36px;*/
 }
 li {
-  display: block;
-  padding: 5px;
+ display: block;
+ padding: 5px;
 }
 h2 {
-  font-size: 20px;
-  font-style: italic;
-  text-decoration: underline;
+ font-size: 20px;
+ font-style: italic;
+ text-decoration: underline;
 }
 body {
-  -webkit-transition: height .5s;
-  -moz-transition: height .5s;
+  background: url(/Users/jcheng305/documents/WDI40/personal_portfolio/jcheng305.github.io/assets/imgs/iron_man.jpg);
+  background-position: center;
+ -webkit-transition: height .5s;
+ -moz-transition: height .5s;
+}
+
+
+footer {
+background-color:#353535;
+color:#fff;
+padding:2% 0;
+width:100%;
+clear:both;
+height:100px;
+}
+
+.footer-content {
+max-width: auto;
+padding:2% 0;
+margin:0 auto;
+font-family: proxima-nova,sans-serif;
+font-style: normal;
+font-weight: 300;
+line-height: 1.4;
+color: #fff;
+letter-spacing: .03em;
+font-size:1em;
+}
+
+.credit {
+float:left;
+}
+
+.social {
+float:right;
+}
+
+.social li {
+display:inline;
+}
+
+.social li a {
+color:#fff;
+padding:0.2em;
+font-size:1.8em;
+font-weight:600;
+}
+
+.social li a:hover {
+color:#011833;
 }
