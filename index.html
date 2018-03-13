@@ -5,61 +5,192 @@
   <!-- meta -->
   <meta charset="utf-8" />
   <meta name="description" content="Personal Site">
-  <meta name="author" content="GA Student">
   <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
   <!-- mobile -->
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <!-- styles -->
+
   <!-- STYLESHEETS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
   <!-- VENDOR SCRIPTS -->
   <script src="https://code.jquery.com/jquery-2.2.3.min.js" integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo=" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+  <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
   <!--  APPLICATION scripts -->
   <script type="text/javascript" src="assets/js/app.js"></script>
   <!-- favicon -->
   <link rel="icon" type="image/png" href="assets/imgs/favicon.png">
 </head>
-<body>
-        <!-- Create a nav bar here -->
-        <nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">Jimmy Cheng's Portfolio</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
+
+<nav class="navbar navbar-inverse">
+  <div class="navbar-header">
+<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+  <span class="icon-bar"></span>
+</button>
+<a class="navbar-brand" href="/">Jimmy Cheng</a>
+</div>
+<div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="index.html">Home</a></li>
-            <li><a href="about.html">About Me</a></li>
-
-            <li><a href="projects.html">Projects</a></li>
-            <li class="dropdown">
-              <a class="dropdown-toggle" data-toggle="dropdown" href="#">Contact Me <span class="caret"></span></a>
-              <ul class="dropdown-menu">
-            <li><a href="../contact.html">Via Social Media</a></li>
-          </ul>
-    </div>
-  </div>
+        <li><a href="#aboutme">About Me</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contactme">Contact Me</a></li>
+      </ul>
+</div>
 </nav>
-<article><!-- or <div class="container">, etc. -->
-     <h1>Welcome to my Domain! hehrehrere</h1>
+<div class="pageOne text-center">
+  <div class="block text-center">
+    <h1>
+      Jimmy Cheng
+    </h1>
+    <h2>
+      Full-Stack Web Developer
+    </h2>
+    <div class= "btnList">
+      <a class ="btn btn-default" href="https://www.linkedin.com/in/jcheng305/">
+        <i class="fab fa-linkedin" id="linkedInIcon"></i>LinkedIn</a>
+        <a class ="btn btn-default" href="https://github.com/jcheng305">
+          <i class="fab fa-github" id="githubIcon"></i>Github</a>
+          <a class ="btn btn-default" href="https://www.instagram.com/jchengg305/">
+            <i class="fab fa-instagram" id="instagramIcon"></i>Instagram</a>
+          </div>
+        </div>
+      </div>
+      <div class="pageTwo" id="aboutme">
+        <div class= "row">
+          <div class= "col-md-6 text-center">
+            <h2>About Me</h2>
+            <img src="https://scontent.fsnc1-1.fna.fbcdn.net/v/t1.0-9/22728813_10213565564229923_8094114816543243708_n.jpg?oh=b77bcab16fbafe3ca271524704b8f895&oe=5B4C640F" class = "me"/>
+            <p>
+              Being a developer bringing life to my code that'll someday be beneficial to the world is all that I strive for. I'm all about team work and getting the task at hand completed. Nothing excites me more than being able to help and improve anything that involves code!
+            </p>
+            <h3>Technical Skills</h3>
+            <div class= "column">
+              <img src= "https://i.pinimg.com/originals/3e/be/5d/3ebe5d119ac707cd463cabbba214c8f6.png" style="width:70%;border-radius:60%"/>
+              <ul>
+                <li>
+                  React JS
+                </li>
+                <li>
+                  Angular JS
+                </li>
+                <li>
+                  HTML & CSS
+                </li>
+                <li>
+                  jQuery
+                </li>
+                <li>
+                  AJAX
+                </li>
+              </ul>
+            </div>
+            <div class= "column">
+              <img src="http://blog.siliconstraits.vn/wp-content/uploads/2015/05/Internship-hiring-03.png" style="width:50%;border-radius:60%"/>
+              <ul>
+                <li>
+                  Ruby On Rails
+                </li>
+                <li>
+                  Ruby
+                </li>
+                <li>
+                  MongoDB
+                </li>
+                <li>
+                  NodeJS
+                </li>
+                <li>
+                  Express
+                </li>
+                <li>
+                  SQL
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="pageThree text-center" id="portfolio">
+        <div class="paddingTop">
+          <h1>Portfolio</h1>
+          <h2>Projects</h2>
+        </div>
+        <div class= "row">
+          <div class= "col-md-6">
+            <div class="w3-card-4">
+              <h3>Pokédex Clone</h3>
+              <img src="https://media.giphy.com/media/ljb5tbEr2e3BK/giphy.gif" alt="Pokedex">
+              <div class="w3-container w3-center">
+                <p>This a Pokedex created purely from Ruby on Rails based on the Kanto region, which consists of 151 pokemon.</p>
+              </div>
+              <a class ="btn btn-default" href="https://github.com/jcheng305/pokedex">
+                <i class="fab fa-github" id="githubIcon"></i>Github</a>
+                <a class ="btn btn-default" href="https://scary-labyrinth-39653.herokuapp.com/">
+                  <img src="https://png.icons8.com/color/50/000000/heroku.png">Heroku</a>
+                </div>
+              </div>
+              <div class= "col-md-6">
+                <div class="w3-card-4">
+                  <h3>Vagabond</h3>
+                  <img src="http://www.carlynnespinoza.com/assets/imgs/vagabond.png" alt="Travel With Us">
+                  <div class="w3-container w3-center">
+                    <p>This is a application made to show all the must see attractions for Europe within the following destinations: Barcelona, London, Paris, and St.Petersburg.
+                    </p>
+                  </div>
+                  <a class ="btn btn-default" href="https://github.com/jcheng305/vagabond">
+                    <i class="fab fa-github" id="githubIcon"></i>Github</a>
+                    <a class ="btn btn-default" href="https://guarded-taiga-12222.herokuapp.com/">
+                      <img src="https://png.icons8.com/color/50/000000/heroku.png">Heroku</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="pageFour text-center" id="contactme">
+                <div class= "row">
+                  <div class= "col md 8">
+                    <h2>Contact Me
+                      <a href="mailto:jccoding305@gmail.com">jccoding305@gmail.com</a>
+                    </h2>
+                  </div>
+                </div>
+                <div class= "footer">
+                  <div class= "btnList">
+                    <a class ="btn btn-default" href="https://www.linkedin.com/in/jcheng305/">
+                    <i class="fab fa-linkedin" id="linkedInIcon"></i></a>
+                    <a class ="btn btn-default" href="https://github.com/jcheng305">
+                    <i class="fab fa-github" id="githubIcon"></i></a>
+                    <a class ="btn btn-default" href="https://www.instagram.com/jchengg305/">
+                    <i class="fab fa-instagram" id="instagramIcon"></i></a>
+                    <a class="btn btn-default" href="mailto:jccoding305@gmaill.com">
+                    <i class="fas fa-envelope"></i></a>
+                  </div>
+                  <p>
+                    Copyright @ Jimmy Cheng 2017. All Rights Reserved
+                  </p>
+                </div>
+              </div>
+              <body>
+                 <button onclick="topFunction()" id="myBtn" title="Go to top">Return to top of page</button>
+                 <script>
+                 // When the user scrolls down 20px from the top of the document, show the button
+                 window.onscroll = function() {scrollFunction()};
 
+                 function scrollFunction() {
+                   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                     document.getElementById("myBtn").style.display = "block";
+                   } else {
+                     document.getElementById("myBtn").style.display = "none";
+                   }
+                 }
 
-</article>
-<footer
-  <div class="footer-content">
-  <i class="fa fa-linkedin w3-hover-opacity"></i>
-    <p class="credit">&copy; Copyright 2017 Jimmy Cheng.<br>Designed and Developed by Jimmy Cheng.</p>
-    <ul class="social"
-    <h4>Get connected with me on:</h4>
-      <li><a href="https://www.instagram.com/aznboi305" target="_instagram">Instagram</a></li>
-</footer>
-</body>
-</html>
+                 // When the user clicks on the button, scroll to the top of the document
+                 function topFunction() {
+                   document.body.scrollTop = 0;
+                   document.documentElement.scrollTop = 0;
+                 }
+                 </script>
+              </body>
+              </html>

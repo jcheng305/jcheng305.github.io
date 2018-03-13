@@ -1,102 +1,161 @@
 /* custom styles */
-article{
-  border: 7px solid white;
-  margin: 40px 0px 0px 0px;
-  border-radius: 40px;
-}
-header {
- text-align: center;
- background-size: auto;
- background-repeat: no-repeat;
+@import url('https://fonts.googleapis.com/css?family=Passion+One');
 
- width: 100%;
- height: 35px;
- color: #4a5e7c;
+#linkedInIcon{
+  color: rgb(0,127,178);
+}
+#githubIcon {
+  color: rgb(102,43,129);
+}
+#instagramIcon {
+  color: rgb(205,72,107);
+}
+#myNavbar{
+  background-color: black;
+  text-align: justify;
+}
+.block{
+  background-color: black;
+  opacity: 0.7;
+  padding: 10px;
+  width: 50%;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  color:white;
+
+}
+.nav{
+  font-size: 1.7em;
+}
+
+
+body{
+ background: black;
+ font-family: 'Passion One';
 }
 h1 {
- font-size: 70px;
- color: white;
+  padding: 0;
+  margin-top: 0px;
+  font-size: 5.0em;
+  color: white;
 }
-img {
- margin: 40px 0px 0px 0px;
- border: 7px solid white;
- border-radius: 40px;
-}
-.well {
-  min-height: 20px;
-  padding: 19px;
-  margin-bottom: 20px;
-  border: 1px solid #e3e3e3;
-  border-radius: 4px;
-  background-color: transparent;
-  background-repeat: no-repeat;
-  font-color: white;
+p{
+  font-size: 1.7em;
 
 }
-
-html {
-    position: relative;
-    min-height: 100%;
-}
-
-body {
-  background: url(/Users/jcheng305/documents/WDI40/personal_portfolio/jcheng305.github.io/assets/imgs/iron_man.jpg);
-  background-size: cover;
-  background-position: center;
+.btn-default {
   background-color: black;
- /*-webkit-transition: height .5s;
- -moz-transition: height .5s;*/
-  display: none;
-  margin: 0 0 100px;
-  padding: 25px;
+  border-color: black;
+  color: #337ab7;
+  font-size: 1.7em
+}
+.me {
+  max-width: 50%;
+  max-height: 100%;
+  margin-right:auto;
+  margin-left: auto;
+  background-size: 100px;
+  border-radius: 80%;
+
+}
+.pageOne{
+  background: url("https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b934f71d8055c9013853b2fe286d66f0&auto=format&fit=crop&w=1650&q=80");
+  background-size: cover;
+  padding-bottom: 10%;
+  max-width: 100%;
+  max-height: 100%;
+  color: white;
+}
+.pageTwo{
+  background: url("http://i1085.photobucket.com/albums/j422/aznboi3o5/IMG_8857.jpg");
+  background-size: cover;
+  padding-bottom: 10%;
+  padding-top: 5%;
+  max-width: 100%;
+  max-height: 100%;
+  color: white;
+}
+.pageThree{
+  background: url("https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d39fe8df8ff9407562e2f89aec3c1318&auto=format&fit=crop&w=2850&q=80");
+  background-size: cover;
+  padding-bottom: 10%;
+  padding-top: 5%;
+  max-width: 100%;
+  max-height: 100%;
+  color: white;
+}
+.pageFour{
+  background: url("https://images.unsplash.com/photo-1503292760924-54a2d8e981a5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f03d8bf1b24eb567db78ca6b82ce11ec&auto=format&fit=crop&w=1334&q=80");
+  background-size: cover;
+  padding-top: 5%;
+  max-width: 100%;
+  max-height: 100%;
+  color: white;
+}
+.paddingTop{
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
 
-footer {
-background-color:#353535;
-color:#fff;
-left: 0;
-bottom: 0;
-overflow: hidden;
-padding:2% 0;
-width:100%;
-clear:both;
-height:100px;
-position: absolute;
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.footer-content {
-max-width: auto;
-padding:2% 0;
-margin:0 auto;
-font-family: proxima-nova,sans-serif;
-font-style: normal;
-font-weight: 300;
-line-height: 1.4;
-color: #fff;
-letter-spacing: .03em;
-font-size:1em;
-position: absolute;
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 16px;
+}
+.column {
+  float:right;
+  width: 50%;
+  text-align: justify;
+  font-size: 1.7em;
 }
 
-.credit {
-float:left;
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.social {
-float:right;
+.footer{
+  text-align: left;
+}
+.footer p{
+  text-align: center;
+}
+a:hover{
+    background-color:#aaa;
+    color:white;
+}
+a:active{
+    background-color:#000;
+    color:white;
+}
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background-color: rgb(30,144,255); /* Set a background color */
+    opacity: 0.7;
+    color: white; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 10px; /* Rounded corners */
+    font-size: 18px; /* Increase font size */
 }
 
-.social li {
-display:inline;
-}
-
-.social li a {
-color:#fff;
-padding:0.2em;
-font-size:1.8em;
-font-weight:600;
-}
-
-.social li a:hover {
-color:#011833;
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
 }
