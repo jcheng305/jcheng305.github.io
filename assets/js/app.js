@@ -27,5 +27,3 @@ window.location = newLocation;
 }
 
 })
-
-}

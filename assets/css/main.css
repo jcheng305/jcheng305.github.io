@@ -62,16 +62,20 @@ p{
 .pageOne{
   background: url("https://images.unsplash.com/photo-1502945015378-0e284ca1a5be?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=b934f71d8055c9013853b2fe286d66f0&auto=format&fit=crop&w=1650&q=80");
   background-size: cover;
+  background-position: center;
   padding-bottom: 10%;
   max-width: 100%;
   max-height: 100%;
   color: white;
 }
 .pageTwo{
-  background: url("http://i1085.photobucket.com/albums/j422/aznboi3o5/IMG_8857.jpg");
-  background-size: cover;
+  background: url("http://i1085.photobucket.com/albums/j422/aznboi3o5/IMG_7732.jpg");
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position: center;
   padding-bottom: 10%;
   padding-top: 5%;
+  /*height:auto;*/
   max-width: 100%;
   max-height: 100%;
   color: white;
@@ -79,6 +83,7 @@ p{
 .pageThree{
   background: url("https://images.unsplash.com/photo-1505238680356-667803448bb6?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d39fe8df8ff9407562e2f89aec3c1318&auto=format&fit=crop&w=2850&q=80");
   background-size: cover;
+  background-position: center;
   padding-bottom: 10%;
   padding-top: 5%;
   max-width: 100%;
@@ -88,6 +93,7 @@ p{
 .pageFour{
   background: url("https://images.unsplash.com/photo-1503292760924-54a2d8e981a5?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=f03d8bf1b24eb567db78ca6b82ce11ec&auto=format&fit=crop&w=1334&q=80");
   background-size: cover;
+  background-position: center;
   padding-top: 5%;
   max-width: 100%;
   max-height: 100%;
